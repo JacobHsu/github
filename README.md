@@ -1,7 +1,7 @@
 # github
 
 ### IDE
-[CodePen](https://codepen.io/) - Front End Developer Playground & Code Editor
+[CodePen](https://codepen.io/) - Front End Developer Playground & Code Editor  
 [Repl.it](https://repl.it/languages/python3) - Online Python3 Editor and IDE - Fast, Powerful, Free  
 
 ### projects
