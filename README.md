@@ -10,3 +10,5 @@
 ### hexo 
 
 [hexo-theme-next](https://theme-next.org)  
+[精于心，简于形](https://theme-next.iissnan.com/)  
+
