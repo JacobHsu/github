@@ -14,6 +14,9 @@ title: Tools
 [Iconfont](https://www.iconfont.cn/)  
 [Potlab Icons](http://www.potlabicons.com/)  
 
+## CSS
+[CSSeffectsSnippets](https://emilkowalski.github.io/css-effects-snippets/)  
+
 ## Music
 
 [WOWA](https://www.wowa.me/)
