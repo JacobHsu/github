@@ -21,3 +21,6 @@ The easiest way to install Git and the SSH client on Windows 8.1 and Windows 7 i
 用記事本之類的軟件打開`id_rsa.pub`文件，並且複製全部內容。這裡記錄的是公鑰信息。
 在你的gitlab或者github的賬戶，打開SSH key標籤。
 然後選擇`Add SSH key`按鈕，將剛剛複製的內容粘貼進去即可，然後點擊`add key`。   
+
+[撤銷git add](https://segmentfault.com/q/1010000006864939)  
+`git reset HEAD .`  
