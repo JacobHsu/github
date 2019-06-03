@@ -2,6 +2,10 @@
 title: git
 ---
 
+Git 使用 遠端 Branch  
+ 
+`$ git branch -r`  # 看遠端有什麼 branch
+
 [GitLab and SSH keys](https://docs.gitlab.com/ee/ssh/)  
 
 ### Git for Windows  
