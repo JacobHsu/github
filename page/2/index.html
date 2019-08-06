@@ -216,7 +216,7 @@
 
     
 
-    <a href="/github/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+    <a href="/github/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
         
@@ -233,7 +233,7 @@
 
     
 
-    <a href="/github/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/github/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
 
@@ -269,6 +269,169 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/github/2019/04/17/git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jacob Hsu">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/github/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tools">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/github/2019/04/17/git/" class="post-title-link" itemprop="url">git</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-04-17 13:30:17" itemprop="dateCreated datePublished" datetime="2019-04-17T13:30:17+08:00">2019-04-17</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-06-03 11:22:20" itemprop="dateModified" datetime="2019-06-03T11:22:20+08:00">2019-06-03</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Git 使用 遠端 Branch  </p>
+<p><code>$ git branch -r</code>  # 看遠端有什麼 branch</p>
+<p><a href="https://docs.gitlab.com/ee/ssh/" target="_blank" rel="noopener">GitLab and SSH keys</a>  </p>
+<h3 id="Git-for-Windows"><a href="#Git-for-Windows" class="headerlink" title="Git for Windows"></a>Git for Windows</h3><p>The easiest way to install Git and the SSH client on Windows 8.1 and Windows 7 is <a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Windows</a>. It provides a Bash emulation (Git Bash) used for running Git from the command line and the ssh-keygen command that is useful to create SSH keys as you’ll learn below. </p>
+<h3 id="RSA-SSH-keys"><a href="#RSA-SSH-keys" class="headerlink" title="RSA SSH keys"></a>RSA SSH keys</h3><p>首先你需要在github上或者gitlab上有一個自己的賬戶</p>
+<p>打開git bash，輸入命令<code>ls -al ~/.ssh</code>。檢查是否顯示有<code>id_rsa.pub</code>存在   </p>
+<p>在<code>git bash</code>中鍵入<br><code>$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code><br>注意將這裡的郵箱地址替換成你自己的郵箱地址。之後一直按回車就可以了。在這裡可以看到<code>id_rsa</code>和<code>id_rsa.pub</code>文件已經生成。並且生成的路徑也已顯示。</p>
+<p>用記事本之類的軟件打開<code>id_rsa.pub</code>文件，並且複製全部內容。這裡記錄的是公鑰信息。<br>在你的gitlab或者github的賬戶，打開SSH key標籤。<br>然後選擇<code>Add SSH key</code>按鈕，將剛剛複製的內容粘貼進去即可，然後點擊<code>add key</code>。   </p>
+<p><a href="https://segmentfault.com/q/1010000006864939" target="_blank" rel="noopener">撤銷git add</a><br><code>git reset HEAD .</code>  </p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -323,14 +486,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Post created: 2019-04-16 09:50:02" itemprop="dateCreated datePublished" datetime="2019-04-16T09:50:02+08:00">2019-04-16</time>
+              <time title="Created: 2019-04-16 09:50:02" itemprop="dateCreated datePublished" datetime="2019-04-16T09:50:02+08:00">2019-04-16</time>
             
 
             
@@ -347,7 +510,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2019-04-18 13:43:28" itemprop="dateModified" datetime="2019-04-18T13:43:28+08:00">2019-04-18</time>
+                <time title="Modified: 2019-04-18 13:43:28" itemprop="dateModified" datetime="2019-04-18T13:43:28+08:00">2019-04-18</time>
               
             
           </span>
@@ -477,8 +640,8 @@
                 
                   <a href="/github/archives/">
                 
-                    <span class="site-state-item-count">11</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
@@ -532,7 +695,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
