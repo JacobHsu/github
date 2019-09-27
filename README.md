@@ -14,6 +14,17 @@ The current branch release has no upstream branch.
 To push the current branch and set the remote as upstream, use
 `git push --set-upstream origin release`  
 
+【狀況題】[手邊的工作做到一半，臨時要切換到別的任務](https://gitbook.tw/chapters/faq/stash.html)
+
+
+ `$git reset -soft HEAD^`  
+ `$git stash`  
+ `$git checkout -b HotFix`  
+ `$git branch`  
+ `$git stash pop`  
+ `$git add .`  
+ `$git commit -m "hotfix"`  
+
 
 ### IDE
 [CodePen](https://codepen.io/) - Front End Developer Playground & Code Editor  
