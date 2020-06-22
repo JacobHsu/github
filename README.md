@@ -1,5 +1,10 @@
 # github
 
+[mac下已安裝的ssh的id_rsa.pub文件位置](https://blog.csdn.net/Cloudox_/article/details/50284131)
+默認路徑的，因此要找到ssh文件夾下的id_rsa.pub文件，只需要：
+
+打開終端輸入 `$ open ~/.ssh`
+
 # git 
 
 [從過去的某個 Commit 再長一個新的分支出來](https://gitbook.tw/chapters/branch/branch-from-old-commit.html)
