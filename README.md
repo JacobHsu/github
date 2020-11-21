@@ -12,6 +12,10 @@ Your identification has been saved in C:\Users\jacob/.ssh/`id_rsa`.
 Your public key has been saved in C:\Users\jacob/.ssh/`id_rsa.pub`.  
 
 
+https://github.com/settings/ssh/new
+
+copy `id_rsa.pub`
+
 # mac
 
 [mac下已安裝的ssh的id_rsa.pub文件位置](https://blog.csdn.net/Cloudox_/article/details/50284131)
