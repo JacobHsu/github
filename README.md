@@ -1,5 +1,19 @@
 # github
 
+
+# windows ssh
+
+PS C:\Users\jacob\Documents> `ssh-keygen`
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\jacob/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\jacob/.ssh/`id_rsa`.
+Your public key has been saved in C:\Users\jacob/.ssh/`id_rsa.pub`.
+
+
+# mac
+
 [mac下已安裝的ssh的id_rsa.pub文件位置](https://blog.csdn.net/Cloudox_/article/details/50284131)
 默認路徑的，因此要找到ssh文件夾下的id_rsa.pub文件，只需要：
 
