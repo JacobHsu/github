@@ -1,5 +1,21 @@
 # github
 
+## 退版
+
+```bash
+# 從目前的 HEAD 倒退一個 Commit
+git reset HEAD^
+
+# 查看 Git 記錄
+git log --oneline
+
+# 強制推送至遠端 master 分支
+git push origin main --force
+```
+這樣遠端 master 分支上面的錯誤 commit 就會不見了。
+
+
+``
 
 # windows ssh
 
