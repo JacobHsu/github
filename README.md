@@ -1,5 +1,6 @@
 # github
 
+[Git Cheat Sheet](https://blog.igevin.info/posts/git-cheat-sheet/)  
 Tipes：在github上看源碼的時候將github改為`github1s`，github秒變vscode
 
 ## 退版
