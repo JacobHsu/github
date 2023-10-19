@@ -61,6 +61,10 @@ https://github.com/settings/ssh/new
 
 copy `id_rsa.pub`
 
+[使用 ssh-keygen 產生 publich key](https://www.maxlist.xyz/2022/12/22/github-ssh-setting/)  
+將 publish key 貼到 [Github](https://github.com/settings/keys) 上  
+`ssh -T git@github.com`  
+
 # mac
 
 [mac下已安裝的ssh的id_rsa.pub文件位置](https://blog.csdn.net/Cloudox_/article/details/50284131)
