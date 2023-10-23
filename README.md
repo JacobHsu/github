@@ -98,6 +98,11 @@ To push the current branch and set the remote as upstream, use
  `$git commit -m "hotfix"`  
 
 
+## Frontend 
+
+[leetcode](https://leetcode.com/) [studyplan](https://leetcode.com/studyplan/)  
+[lintcode](https://www.lintcode.com/)  [course](https://www.lintcode.com/course/list/?tagId=1267&chargeStatus=1)  
+
 ### IDE
 [CodePen](https://codepen.io/) - Front End Developer Playground & Code Editor  
 [Repl.it](https://repl.it/languages/python3) - Online Python3 Editor and IDE - Fast, Powerful, Free  
