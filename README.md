@@ -3,6 +3,81 @@
 [Git Cheat Sheet](https://blog.igevin.info/posts/git-cheat-sheet/)  
 Tipes：在github上看源碼的時候將github改為`github1s`，github秒變vscode
 
+
+你的電腦無法使用你的 SSH 金鑰連接到 GitHub。以下是解決問題的步驟：
+
+---
+
+### 1. **檢查是否已生成 SSH 金鑰**
+在終端機輸入以下命令，檢查是否已經生成了 SSH 金鑰：
+
+```bash
+ls ~/.ssh
+```
+
+如果看到了類似 `id_rsa` 和 `id_rsa.pub` 的文件，表示你已經有 SSH 金鑰。如果沒有，則需要生成一個。
+
+#### 如果需要生成 SSH 金鑰：
+執行以下命令：
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "你的GitHub郵箱地址"
+```
+
+然後按下 `Enter` 鍵，並按照提示完成。
+
+---
+
+### 2. **添加 SSH 金鑰到 ssh-agent**
+啟動 `ssh-agent` 並添加金鑰：
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+
+---
+
+### 3. **將 SSH 公鑰添加到 GitHub**
+將 `id_rsa.pub` 的內容添加到你的 GitHub 帳戶：
+
+#### 查看公鑰內容：
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+複製輸出的內容。
+
+#### 添加到 GitHub：
+1. 登錄到 [GitHub](https://github.com)。
+2. 點擊右上角的個人資料圖片，選擇 **Settings**。
+3. 在側邊欄選擇 **SSH and GPG keys**。
+4. 點擊 **New SSH key**，將複製的公鑰內容貼上，然後保存。
+
+---
+
+### 4. **測試連接**
+執行以下命令測試 SSH 是否正確連接到 GitHub：
+
+```bash
+ssh -T git@github.com
+```
+
+如果出現以下訊息，表示成功：
+
+```plaintext
+Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+---
+
+### 5. **重試 git clone**
+確認一切設置正確後，重新嘗試克隆：
+
+```bash
+git clone git@github.com:JacobHsu/nuxt-json-server.git
+```
+
 ## 撤銷
 
 `git revert` 是一個用於創建新提交以撤銷之前提交更改的 Git 命令。當您需要保留完整的提交歷史並回退更改時，這是一個很有用的方法。以下是使用 `git revert` 創建新提交的步驟：
