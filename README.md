@@ -149,6 +149,15 @@ copy `id_rsa.pub`
 
 # git 
 
+# 從目前的 HEAD 倒退一個 Commit  
+`git reset HEAD^`
+
+# 從目前的 HEAD 倒退三個 Commit  
+`git reset HEAD~3`
+
+# 強制推送至遠端分支  
+`git push origin main --force`
+
 [從過去的某個 Commit 再長一個新的分支出來](https://gitbook.tw/chapters/branch/branch-from-old-commit.html)
 
 `$ git checkout 657fce7`  (dev branch)  
