@@ -8,3 +8,5 @@ ESLint 外掛 Prettier 外掛
 option + 滑鼠左鍵 點選多行  
 
 control+shift+p >`Text Pastry: 1 to X`  
+
+[Repomix Runner](https://marketplace.visualstudio.com/items?itemName=DorianMassoulier.repomix-runner) Pack your codebase into [AI-friendly formats](https://repomix.com/)
