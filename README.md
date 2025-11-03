@@ -182,6 +182,24 @@ To push the current branch and set the remote as upstream, use
  `$git commit -m "hotfix"`  
 
 
+## 部署分支到其他專案
+
+在 A 專案中新增另一個 remote：
+`git remote add deploy https://github.com/你的帳號/project-b.git`  
+
+可檢查是否設定成功：
+`git remote -v` 
+
+```
+origin  https://github.com/你的帳號/project-a.git (fetch)
+origin  https://github.com/你的帳號/project-a.git (push)
+deploy  https://github.com/你的帳號/project-b.git (push)
+```
+
+將 dev-b 分支推送到專案 B
+`git push deploy dev-front:main`
+> 把本地的 dev-b 分支 → 推送到 project-b 的 main 分支。
+
 ## Frontend 
 
 [leetcode](https://leetcode.com/) [studyplan](https://leetcode.com/studyplan/)  
