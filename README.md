@@ -4,6 +4,10 @@
 Tipes：在github上看源碼的時候將github改為`github1s`，github秒變vscode
 
 
+用 winget（Windows 10/11 內建工具）
+`winget install --id Git.Git -e --source winget`
+
+
 你的電腦無法使用你的 SSH 金鑰連接到 GitHub。以下是解決問題的步驟：
 
 ---
