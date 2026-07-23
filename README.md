@@ -223,3 +223,9 @@ deploy  https://github.com/你的帳號/project-b.git (push)
 [hexo-theme-next](https://theme-next.org)  
 [精于心，简于形](https://theme-next.iissnan.com/)  
 
+
+##  GitHub CLI
+
+Windows 上安裝 GitHub CLI 
+`winget install --id GitHub.cli`
+
